@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="stuff, to, help, search, engines, not" name="keywords">
+<meta content="What this page is about." name="description">
+<meta content="Display Webcam Stream" name="title">
+<title>People Counter</title>
+  
+<style>
+#container {
+    margin: 0px auto;
+    width: 500px;
+    height: 375px;
+    border: 10px #333 solid;
+}
+#videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+}
+</style>
+</head>
+  
+<body>
+
+   <img src="http://10.0.0.146:8081/?action=stream">
+
+<applet code=com.charliemouse.cambozola.Viewer
+    archive=cambozola.jar width="320" height="240" style="border-width:1; border-color:gray; border-style:solid;"> <param name=url value="http://10.0.0.146:8081"> </applet> 
+
+</body>
+</html>
